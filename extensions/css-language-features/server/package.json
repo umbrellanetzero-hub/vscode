@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@types/node": "24.x",
-    "glob": "^5.0.13"
+    "glob": "^14.0.6"
   },
   "scripts": {
     "compile": "gulp compile-extension:css-language-features-server",

@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/node": "24.x",
-    "glob": "^5.0.13"
+    "glob": "^14.0.6"
   },
   "scripts": {
     "compile": "pnpm exec gulp compile-extension:html-language-features-server",
