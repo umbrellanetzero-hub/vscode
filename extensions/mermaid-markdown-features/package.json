@@ -270,7 +270,7 @@
     "@vscode/hubrpc": "0.0.2-54",
     "playwright": "^1.61.1",
     "type-fest": "^5.7.0",
-    "zod": "4.4.3"
+    "zod": "4.6.6"
   },
   "dependencies": {
     "@iconify-json/logos": "^1.2.0",

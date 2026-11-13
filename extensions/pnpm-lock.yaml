@@ -30,8 +30,8 @@ importers:
         specifier: 0.28.1
         version: 0.28.1
       minimatch:
-        specifier: ^3.1.5
-        version: 3.1.5
+        specifier: ^4.0.0
+        version: 4.2.6
       path-browserify:
         specifier: ^1.0.1
         version: 1.0.1
@@ -117,8 +117,8 @@ importers:
         specifier: ^2.8.8
         version: 2.11.0
       image-size:
-        specifier: ~1.0.0
-        version: 1.0.2
+        specifier: ~2.1.0
+        version: 2.1.0
       vscode-languageserver-textdocument:
         specifier: ^1.0.1
         version: 1.0.12
@@ -440,19 +440,19 @@ importers:
         version: 0.1.1-0
       '@vscode/web-editors':
         specifier: ^0.0.2-41
-        version: 0.0.2-76(zod@4.4.3)
+        version: 0.0.2-76(zod@4.6.6)
       dompurify:
-        specifier: ^3.4.10
-        version: 3.4.16
+        specifier: ^3.4.17
+        version: 3.4.17
       highlight.js:
         specifier: ^11.8.0
         version: 11.8.0
       katex:
-        specifier: ^0.16.33
-        version: 0.16.47
+        specifier: ^0.18.2
+        version: 0.18.10
       markdown-it:
-        specifier: ^14.2.0
-        version: 14.3.2
+        specifier: ^14.3.3
+        version: 14.3.3
       morphdom:
         specifier: ^2.7.7
         version: 2.7.7
@@ -498,7 +498,7 @@ importers:
         version: 1.57.0
       '@vscode/hubrpc':
         specifier: 0.0.2-20
-        version: 0.0.2-20(zod@4.4.3)
+        version: 0.0.2-20(zod@4.6.6)
       '@vscode/markdown-it-katex':
         specifier: ^1.1.1
         version: 1.1.1
@@ -524,17 +524,17 @@ importers:
         specifier: 0.5.0
         version: 0.5.0
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
 
   markdown-language-features/test-workspace/checkbox-count-extension:
     dependencies:
       '@vscode/web-editors':
         specifier: ^0.0.2-41
-        version: 0.0.2-41(zod@4.6.7)
+        version: 0.0.2-41(zod@4.6.6)
       zod:
-        specifier: ^4.4.3
-        version: 4.6.7
+        specifier: ^4.6.6
+        version: 4.6.6
     devDependencies:
       esbuild:
         specifier: 0.27.2
@@ -585,7 +585,7 @@ importers:
         version: 1.0.1(mermaid@12.2.0)
       '@vscode/web-editors':
         specifier: ^0.0.2-104
-        version: 0.0.2-104(zod@4.4.3)
+        version: 0.0.2-104(zod@4.6.6)
       mermaid:
         specifier: ^12.2.0
         version: 12.2.0
@@ -604,7 +604,7 @@ importers:
         version: 0.0.36
       '@vscode/hubrpc':
         specifier: 0.0.2-54
-        version: 0.0.2-54(zod@4.4.3)
+        version: 0.0.2-54(zod@4.6.6)
       playwright:
         specifier: ^1.61.1
         version: 1.61.1
@@ -612,8 +612,8 @@ importers:
         specifier: ^5.7.0
         version: 5.7.0
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
 
   microsoft-authentication:
     dependencies:
@@ -621,8 +621,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       '@azure/msal-node':
-        specifier: ~5.4.0
-        version: 5.4.0
+        specifier: ~7.1.0
+        version: 7.1.2
       '@azure/msal-node-extensions':
         specifier: ~5.3.2
         version: 5.3.2
@@ -688,8 +688,8 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       minimatch:
-        specifier: ^5.1.8
-        version: 5.1.8
+        specifier: ^4.0.0
+        version: 4.2.6
       request-light:
         specifier: ^0.7.0
         version: 0.7.0
@@ -859,8 +859,8 @@ importers:
         specifier: ^10.8.2
         version: 10.8.2
       node-forge:
-        specifier: ^1.4.0
-        version: 1.4.0
+        specifier: ^1.4.3
+        version: 1.4.3
       straightforward:
         specifier: ^4.2.2
         version: 4.2.2
@@ -925,6 +925,10 @@ packages:
     resolution: {integrity: sha512-yPohvMwWLv1XnaWnIUyKUh8CvcVChCGqG/VluGwfGmaAfrZTNt5yQ+sIs462Sgw6+e2K83KGmMJ860p73ZSCrw==}
     engines: {node: '>=0.8.0'}
 
+  '@azure/msal-common@16.15.0':
+    resolution: {integrity: sha512-lwdLb1B9Q5nEhPLVIKe78XH5wFMN15fCiDkY7ylPDSWZuWcD93G3jpJajrKhO3CQld8SLKz0sHiOi24mxdvtsg==}
+    engines: {node: '>=0.8.0'}
+
   '@azure/msal-node-extensions@5.3.2':
     resolution: {integrity: sha512-cVfVJ55aACkzFe3+ol72W8iEtGVODcSIeBEQM9qFSz0bqbN6B/JyNcbNgFXmuVg8dZCCN3ARkvTyikESMetA+A==}
     engines: {node: '>=20'}
@@ -932,8 +936,8 @@ packages:
   '@azure/msal-node-runtime@0.20.1':
     resolution: {integrity: sha512-WVbMedbJHjt9M+qeZMH/6U1UmjXsKaMB6fN8OZUtGY7UVNYofrowZNx4nVvWN/ajPKBQCEW4Rr/MwcRuA8HGcQ==}
 
-  '@azure/msal-node@5.4.0':
-    resolution: {integrity: sha512-6EZEParwHRlnSSIikw8FNAnAzwmh71uhveUXdPNFeZFviJ9SH+rwFiurhjzXqICYTrpm3E+dj693QOwfPbJXAQ==}
+  '@azure/msal-node@7.1.2':
+    resolution: {integrity: sha512-52hKQLGpEQzwNufIXG1SPVU+wQ3RIe7Rp2+g+VdAmZojCAZ6yCdGEffzQEQ6RnBZGBEs40nl14rWBmfJpCoHsg==}
     engines: {node: '>=20'}
 
   '@borewit/text-codec@0.2.1':
@@ -1601,8 +1605,8 @@ packages:
     resolution: {integrity: sha512-WEi/R0Jmq+IJKydWlKDmryPcmdYSVjL3ekaiEL1L9eo1sUnqMJ+grqmC9cjk7CA7+b2/T397tO5d8YLOH3qYpQ==}
     engines: {node: '>= 18'}
 
-  '@octokit/request@9.2.3':
-    resolution: {integrity: sha512-Ma+pZU8PXLOEYzsWf0cn/gY+ME57Wq8f49WTXA8FMHp2Ps9djKw//xYJ1je8Hm0pR2lU9FUGeJRWOtxq6olt4w==}
+  '@octokit/request@9.2.4':
+    resolution: {integrity: sha512-q8ybdytBmxa6KogWlNa818r0k1wlqzNC+yNkcQDECHvQo8Vmstrg18JwqJHdJdUiHD2sjlwBgSm9kHkOKe2iyA==}
     engines: {node: '>= 18'}
 
   '@octokit/rest@21.1.0':
@@ -2388,9 +2392,6 @@ packages:
     resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
     engines: {node: '>= 4'}
 
-  dompurify@3.4.16:
-    resolution: {integrity: sha512-sqo+pNp3qRhCIpbgRi1y8Tgk27Bo2Ry7w0dC1NBeNTdZChWjz9Xb/KOoZbRP/R6pQZ80Qw8YhXw13hWWBbMRnQ==}
-
   dompurify@3.4.17:
     resolution: {integrity: sha512-B/pSlYVHQ58kqISD/yDjuJ1yfzI34m1gF4lAod2bwSRhiN4K5Cl3H8Af7hqB2PmTL911tdEudnnXn5FnhRoz0w==}
 
@@ -2612,9 +2613,9 @@ packages:
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
 
-  image-size@1.0.2:
-    resolution: {integrity: sha512-xfOoWjceHntRb3qFCrh5ZFORYH8XCdYpASltMhZ/Q0KZiOwjdE/Yl2QCiWdwD+lygV5bMCvauzgu5PxBX/Yerg==}
-    engines: {node: '>=14.0.0'}
+  image-size@2.1.0:
+    resolution: {integrity: sha512-6Dbisa46RsgeAh3TMSFL2i8+uIFG+/LRmz6Q2oscSJJvXo1sOw3EgNO4M8jPl1P+gR1atJLDPrpclX4IHz63sA==}
+    engines: {node: '>=18'}
     hasBin: true
 
   inflight@1.0.6:
@@ -2832,10 +2833,6 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  markdown-it@14.3.2:
-    resolution: {integrity: sha512-sHHjZ5fJKlgrG4qns2YwVcdNep35h5fERrfkD2YNsb9UFk0UIHarbiTaHKVMlPuWAoiilyK8Fv/jAm11slsY7Q==}
-    hasBin: true
-
   markdown-it@14.3.3:
     resolution: {integrity: sha512-L//tDAkjTjJCU6pBUSBTgs3Kg4InVaZuUZog/b6V12UKhcDQ7S78877ibbCanRExwPuYP1CZD7Gd2dxSy1GXRg==}
     hasBin: true
@@ -2965,8 +2962,8 @@ packages:
   minimatch@3.1.5:
     resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
 
-  minimatch@5.1.8:
-    resolution: {integrity: sha512-7RN35vit8DeBclkofOVmBY0eDAZZQd1HzmukRdSyz95CRh8FT54eqnbj0krQr3mrHR6sfRyYkyhwBWjoV5uqlQ==}
+  minimatch@4.2.6:
+    resolution: {integrity: sha512-i35PeWjrW3Kv6/Jken0yeuByzK4YWer7UWba3yWg8+v+5WQQtcKiQ1GqGP7Jc3jhUdlviU3gQf89ON+69eD8RA==}
     engines: {node: '>=10'}
 
   minimatch@5.1.9:
@@ -2996,8 +2993,8 @@ packages:
   node-addon-api@7.1.1:
     resolution: {integrity: sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==}
 
-  node-forge@1.4.0:
-    resolution: {integrity: sha512-LarFH0+6VfriEhqMMcLX2F7SwSXeWwnEAJEsYm5QKWchiVYVvJyV9v7UDvUv+w5HO23ZpQTXDv/GxdDdMyOuoQ==}
+  node-forge@1.4.3:
+    resolution: {integrity: sha512-P6wzfh6t70avmV8FrVEAd/36sOPJQ+hkaJVX1Laap9J/77m7M0eyozDvc8SwnDf4P7MP94gwbAAo0rg3YVXT+g==}
     engines: {node: '>= 6.13.0'}
 
   node-html-parser@6.1.13:
@@ -3096,9 +3093,6 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  queue@6.0.2:
-    resolution: {integrity: sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==}
-
   react-aria@3.48.0:
     resolution: {integrity: sha512-jQjd4rBEIMqecBaAKYJbVGK6EqIHLa5znVQ7jwFyK5vCyljoj6KhgtiahmcIPsG5vG5vEDLw+ba+bEWn6A2P4w==}
     peerDependencies:
@@ -3173,18 +3167,13 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.6.2:
-    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.8.5:
     resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
     engines: {node: '>=10'}
     hasBin: true
 
-  serialize-javascript@7.0.5:
-    resolution: {integrity: sha512-F4LcB0UqUl1zErq+1nYEEzSHJnIwb3AF2XWB94b+afhrekOUijwooAYqFyRbjYkm2PAKBabx6oYv/xDxNi8IBw==}
+  serialize-javascript@7.1.4:
+    resolution: {integrity: sha512-FqlEuoTq/zRmA4Lg6aOqyH3lCHbUtCB0bmHCeFniX2GBdDqMJM3FwdvEhlE5Pim1dlt2FfBdVPmUNNiGhhKqpw==}
     engines: {node: '>=20.0.0'}
 
   set-function-length@1.2.2:
@@ -3318,8 +3307,8 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  undici@7.29.1:
-    resolution: {integrity: sha512-RYONW2MeafgYlkVOKYKkA/Ag7BmXqgIWCa8t1m0JcxrQg9pI9lEqRhAOruOBCbAohOa/gkCF+iPi9hrgvTzu6Q==}
+  undici@7.30.2:
+    resolution: {integrity: sha512-mLyPQnHwUxaM/rideoK/+KL8DaAJLRl4aBCfmX444aCSLnIaomqPLtNRe2jdCYcsk5wZzXrDIQC8ZeYNRAYyIA==}
     engines: {node: '>=20.18.1'}
 
   universal-user-agent@7.0.2:
@@ -3333,8 +3322,8 @@ packages:
   util@0.12.5:
     resolution: {integrity: sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==}
 
-  uuid@11.1.1:
-    resolution: {integrity: sha512-vIYxrBCC/N/K+Js3qSN88go7kIfNPssr/hHCesKCQNAjmgvYS2oqr69kIufEG+O4+PfezOH4EbIeHCfFov8ZgQ==}
+  uuid@14.0.3:
+    resolution: {integrity: sha512-Sc5u1VVln93y1Xnz4R+CunOZc7R9LUcTmhj7Rc7Eg3HVcf7rVn2FOoa812fe0W8p3jD7xeoGSYbfqCGGH2B6xw==}
     hasBin: true
 
   vscode-css-languageservice@7.0.0-next.2:
@@ -3527,11 +3516,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
-
-  zod@4.6.7:
-    resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 ignoredOptionalDependencies:
   - '@parcel/watcher-*'
@@ -3567,6 +3553,8 @@ snapshots:
 
   '@azure/msal-common@16.11.1': {}
 
+  '@azure/msal-common@16.15.0': {}
+
   '@azure/msal-node-extensions@5.3.2':
     dependencies:
       '@azure/msal-common': 16.11.1
@@ -3575,9 +3563,9 @@ snapshots:
 
   '@azure/msal-node-runtime@0.20.1': {}
 
-  '@azure/msal-node@5.4.0':
+  '@azure/msal-node@7.1.2':
     dependencies:
-      '@azure/msal-common': 16.11.1
+      '@azure/msal-common': 16.15.0
       jsonwebtoken: 9.0.2
 
   '@borewit/text-codec@0.2.1': {}
@@ -4047,7 +4035,7 @@ snapshots:
     dependencies:
       '@octokit/auth-token': 5.1.2
       '@octokit/graphql': 8.2.2
-      '@octokit/request': 9.2.3
+      '@octokit/request': 9.2.4
       '@octokit/request-error': 6.1.8
       '@octokit/types': 14.0.0
       before-after-hook: 3.0.2
@@ -4065,13 +4053,13 @@ snapshots:
 
   '@octokit/graphql@8.2.0':
     dependencies:
-      '@octokit/request': 9.2.3
+      '@octokit/request': 9.2.4
       '@octokit/types': 13.10.0
       universal-user-agent: 7.0.2
 
   '@octokit/graphql@8.2.2':
     dependencies:
-      '@octokit/request': 9.2.3
+      '@octokit/request': 9.2.4
       '@octokit/types': 14.0.0
       universal-user-agent: 7.0.2
 
@@ -4097,7 +4085,7 @@ snapshots:
     dependencies:
       '@octokit/types': 14.0.0
 
-  '@octokit/request@9.2.3':
+  '@octokit/request@9.2.4':
     dependencies:
       '@octokit/endpoint': 10.1.4
       '@octokit/request-error': 6.1.8
@@ -4445,29 +4433,29 @@ snapshots:
     dependencies:
       node-addon-api: 7.1.1
 
-  '@vscode/hubrpc@0.0.2-15(zod@4.6.7)':
+  '@vscode/hubrpc@0.0.2-15(zod@4.6.6)':
     dependencies:
       '@hpke/core': 1.9.0
       ws: 8.21.3
-      zod: 4.6.7
+      zod: 4.6.6
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@vscode/hubrpc@0.0.2-20(zod@4.4.3)':
+  '@vscode/hubrpc@0.0.2-20(zod@4.6.6)':
     dependencies:
       '@hpke/core': 1.9.0
       ws: 8.21.3
-      zod: 4.4.3
+      zod: 4.6.6
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@vscode/hubrpc@0.0.2-54(zod@4.4.3)':
+  '@vscode/hubrpc@0.0.2-54(zod@4.6.6)':
     dependencies:
       '@hpke/core': 1.9.0
       ws: 8.22.0
-      zod: 4.4.3
+      zod: 4.6.6
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -4519,25 +4507,25 @@ snapshots:
 
   '@vscode/ts-package-manager@0.0.2': {}
 
-  '@vscode/web-editors@0.0.2-104(zod@4.4.3)':
+  '@vscode/web-editors@0.0.2-104(zod@4.6.6)':
     dependencies:
-      '@vscode/hubrpc': 0.0.2-54(zod@4.4.3)
+      '@vscode/hubrpc': 0.0.2-54(zod@4.6.6)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
       - zod
 
-  '@vscode/web-editors@0.0.2-41(zod@4.6.7)':
+  '@vscode/web-editors@0.0.2-41(zod@4.6.6)':
     dependencies:
-      '@vscode/hubrpc': 0.0.2-15(zod@4.6.7)
+      '@vscode/hubrpc': 0.0.2-15(zod@4.6.6)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
       - zod
 
-  '@vscode/web-editors@0.0.2-76(zod@4.4.3)':
+  '@vscode/web-editors@0.0.2-76(zod@4.6.6)':
     dependencies:
-      '@vscode/hubrpc': 0.0.2-20(zod@4.4.3)
+      '@vscode/hubrpc': 0.0.2-20(zod@4.6.6)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -5010,10 +4998,6 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
 
-  dompurify@3.4.16:
-    optionalDependencies:
-      '@types/trusted-types': 2.0.7
-
   dompurify@3.4.17:
     optionalDependencies:
       '@types/trusted-types': 2.0.7
@@ -5273,9 +5257,7 @@ snapshots:
 
   ieee754@1.2.1: {}
 
-  image-size@1.0.2:
-    dependencies:
-      queue: 6.0.2
+  image-size@2.1.0: {}
 
   inflight@1.0.6:
     dependencies:
@@ -5370,7 +5352,7 @@ snapshots:
       saxes: 6.0.0
       symbol-tree: 3.2.4
       tough-cookie: 6.0.0
-      undici: 7.29.1
+      undici: 7.30.2
       w3c-xmlserializer: 5.0.0
       webidl-conversions: 8.0.1
       whatwg-mimetype: 5.0.0
@@ -5399,7 +5381,7 @@ snapshots:
       lodash.isstring: 4.0.1
       lodash.once: 4.1.1
       ms: 2.1.3
-      semver: 7.6.2
+      semver: 7.8.5
 
   just-extend@4.2.1: {}
 
@@ -5480,15 +5462,6 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  markdown-it@14.3.2:
-    dependencies:
-      argparse: 2.0.1
-      entities: 4.5.0
-      linkify-it: 5.0.2
-      mdurl: 2.0.0
-      punycode.js: 2.3.1
-      uc.micro: 2.1.0
-
   markdown-it@14.3.3:
     dependencies:
       argparse: 2.0.1
@@ -5532,7 +5505,7 @@ snapshots:
       roughjs: 4.6.6
       stylis: 4.3.6
       ts-dedent: 2.2.0
-      uuid: 11.1.1
+      uuid: 14.0.3
 
   micromark-core-commonmark@2.0.3:
     dependencies:
@@ -5755,9 +5728,9 @@ snapshots:
     dependencies:
       brace-expansion: 1.1.21
 
-  minimatch@5.1.8:
+  minimatch@4.2.6:
     dependencies:
-      brace-expansion: 2.1.7
+      brace-expansion: 1.1.21
 
   minimatch@5.1.9:
     dependencies:
@@ -5785,7 +5758,7 @@ snapshots:
       log-symbols: 4.1.0
       minimatch: 5.1.9
       ms: 2.1.3
-      serialize-javascript: 7.0.5
+      serialize-javascript: 7.1.4
       strip-json-comments: 3.1.1
       supports-color: 8.1.1
       workerpool: 6.5.1
@@ -5809,7 +5782,7 @@ snapshots:
 
   node-addon-api@7.1.1: {}
 
-  node-forge@1.4.0: {}
+  node-forge@1.4.3: {}
 
   node-html-parser@6.1.13:
     dependencies:
@@ -5895,10 +5868,6 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  queue@6.0.2:
-    dependencies:
-      inherits: 2.0.4
-
   react-aria@3.48.0(react-dom@19.2.6(react@19.2.6))(react@19.2.6):
     dependencies:
       '@internationalized/date': 3.12.1
@@ -5977,11 +5946,9 @@ snapshots:
     dependencies:
       lru-cache: 6.0.0
 
-  semver@7.6.2: {}
-
   semver@7.8.5: {}
 
-  serialize-javascript@7.0.5: {}
+  serialize-javascript@7.1.4: {}
 
   set-function-length@1.2.2:
     dependencies:
@@ -6098,7 +6065,7 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  undici@7.29.1: {}
+  undici@7.30.2: {}
 
   universal-user-agent@7.0.2: {}
 
@@ -6114,7 +6081,7 @@ snapshots:
       is-typed-array: 1.1.15
       which-typed-array: 1.1.20
 
-  uuid@11.1.1: {}
+  uuid@14.0.3: {}
 
   vscode-css-languageservice@7.0.0-next.2:
     dependencies:
@@ -6312,6 +6279,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@4.4.3: {}
-
-  zod@4.6.7: {}
+  zod@4.6.6: {}
