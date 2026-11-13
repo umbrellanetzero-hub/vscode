@@ -10,7 +10,7 @@
   "devDependencies": {
     "@parcel/watcher": "^2.5.6",
     "esbuild": "0.28.1",
-    "minimatch": "^3.1.5",
+    "minimatch": "^4.0.0",
     "path-browserify": "^1.0.1",
     "vscode-grammar-updater": "^1.1.0"
   }
